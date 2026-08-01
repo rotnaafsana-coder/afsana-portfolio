@@ -343,7 +343,7 @@
       <a href="#impact" class="nav-link">Impact</a>
       <a href="#contact" class="nav-link">Contact</a>
     </nav>
-    <a class="nav-cta" href="mailto:afsana.rotna@yahoo.com">Get in touch</a>
+    <a class="nav-cta" href="mailto:afsana.rotna@yahoo.com" onclick="gtag('event','contact_click',{method:'email',location:'nav'})">Get in touch</a>
   </div>
 </header>
 
@@ -356,8 +356,8 @@
       <h1>Building brands people<br><em>actually remember.</em></h1>
       <p class="lede">11+ years shaping brand strategy, digital marketing, and campaign execution — from boardroom positioning to the till, the storefront signage, and the scroll-stopping ad.</p>
       <div class="cta-row">
-        <a href="#work" class="btn btn-primary">View the work ↓</a>
-        <a href="Afsana_Rotna_CV.pdf" class="btn btn-ghost" download>Download CV</a>
+        <a href="#work" class="btn btn-primary" onclick="gtag('event','view_work_click',{location:'hero'})">View the work ↓</a>
+        <a href="Afsana_Rotna_CV.pdf" class="btn btn-ghost" download onclick="gtag('event','cv_download',{location:'hero'})">Download CV</a>
       </div>
       <div class="hero-stats">
         <div class="stat"><div class="num">11+</div><div class="label">Years in brand &amp; marketing</div></div>
@@ -602,9 +602,9 @@
     <h2>Have a brand<br>worth building?</h2>
     <p class="lede">Open to brand management and marketing leadership roles — reach out by email, phone, or download the full CV.</p>
     <div class="contact-links">
-      <a class="btn btn-primary" href="mailto:afsana.rotna@yahoo.com">afsana.rotna@yahoo.com</a>
-      <a class="btn btn-ghost" href="tel:+8801886332467">+880 1886-332467</a>
-      <a class="btn btn-ghost" href="Afsana_Rotna_CV.pdf" download>Download CV</a>
+      <a class="btn btn-primary" href="mailto:afsana.rotna@yahoo.com" onclick="gtag('event','contact_click',{method:'email',location:'contact_section'})">afsana.rotna@yahoo.com</a>
+      <a class="btn btn-ghost" href="tel:+8801886332467" onclick="gtag('event','contact_click',{method:'phone',location:'contact_section'})">+880 1886-332467</a>
+      <a class="btn btn-ghost" href="Afsana_Rotna_CV.pdf" download onclick="gtag('event','cv_download',{location:'contact_section'})">Download CV</a>
     </div>
   </section>
 
